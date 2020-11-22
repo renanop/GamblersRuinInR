@@ -3,8 +3,6 @@ conditionGenerator <- function() {
   print('Hello. Tell me the probability of A winning');
   pA <- scan(what = double(), nlines = 1, quiet = TRUE);
   pB <- 1-pA;
-  print("Probability of A winning");
-  print(pA);
   print("tell me the starting cash of A");
   cashA <- scan(what = integer(), nlines = 1, quiet = TRUE);
   
